@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style-media-query.css">
+    <!-- Font Awesome 5.15.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="navbar">
+          <div class="hamburger" onclick="toggleMenu()">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+          <ul>
+              <li><a href="history.html">HOME</a></li>
+              <li><a href="index.html">LUZON</a></li>
+              <li><a href="visayas.html">VISAYAS</a></li>
+              <li><a href="mindanao.html">MINDANAO</a></li>
+              <li><a href="Our-members.html">ABOUT US</a></li>
+          </ul>
+          <div class="sidebar-toggle" onclick="toggleMenu()">
+              <span class="toggle-icon">☰</span> <!-- Icon for opening -->
+          </div>
+      </div>
+    </div>
+
+    <section class="places">
+      <div class="carousel">
+        <div class="list">
+          <div class="item" alt="Mactan Shrine">
+            <img
+              src="./image/mactan-shrine1.jpg"
+              id="bg"
+              alt="mactan-shrine-bg"
+            />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">Visayas</div>
+                  <div class="title">Cebu</div>
+                  <div class="topic">Mactan Shrine</div>
+                  <div class="des">
+                    <p>
+                      The Mactan Shrine serves as a site of one of the defining
+                      moments in Philippine history - the Battle of Mactan.
+                      Located in Punta Engaño, Lapu-Lapu City, Mactan Shrine is...
+                    </p>
+                  </div>
+                </div>
+              <!--
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+                -->
+              </div>
+              <div class="slider-container" id="slider1">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/mactan-shrine-slide-1.jpg" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/mactan-shrine1.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/mactan-shrine2.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/mactan-shrine1.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" alt="Magellan’s Cros">
+            <img src="./image/magellan-slide2.jpg" id="bg" alt="Magellan’s Cros-bg" />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">Visayas</div>
+                  <div class="title">Cebu</div>
+                  <div class="topic">Magellan’s Cros</div>
+                  <div class="des">
+                    <p>
+                      Magellan’s Cross is one of the most famous historical landmarks in Cebu City. Housed in an octagonal pavilion made up of adobe and red tiles, many tourists have regularly visited the cross. It is located in front of the....
+                    </p>
+                  </div>
+                </div>
+                <!--
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+                -->
+              </div>
+              <div class="slider-container" id="slider2">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/magellan-slide4.jpg" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/magellan-slide1.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/magellan-slide2.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/magellan-slide3.jpg" alt="Image 4" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/magellan-slide4.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" alt="Guisi Lighthouse">
+            <img src="image/guisi-slide2.jpg" id="bg" alt="banaue-bg" />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">Visayas</div>
+                  <div class="title">Nueva Valencia, Guimaras</div>
+                  <div class="topic">Guisi Lighthouse</div>
+                  <div class="des">
+                    <p>
+                      The Guisi Lighthouse, located in Nueva Valencia, Guimaras, is one of the oldest lighthouses in the Philippines, constructed in 1896. This charming structure, with its rustic white facade, is not only an active navigational aid but also...
+                    </p>
+                  </div>
+                </div>
+                <!--
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+                -->
+              </div>
+              <div class="slider-container" id="slider1">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/guisi-slide1.png" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/guisi-slide2.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/guisi-slide3.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/guisi-slide4.jpg" alt="Image 4" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/guisi-slide5.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" alt="Fort San Pedro">
+            <img
+              src="./image/fort-santiago-bg.jpg"
+              id="bg"
+              alt="fort-santiago-bg"
+            />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">LUZON</div>
+                  <div class="title">MANILA</div>
+                  <div class="topic">Fort Santiago</div>
+                  <div class="des">
+                    <p>
+                      Fort San Pedro is situated at A. Pigafetta Street, Cebu City, is the oldest and smallest fort in the Philippines and is one of Cebu’s pride. Lying in Plaza Independencia in the pier area of Cebu, the fort holds...
+                    </p>
+                  </div>
+                </div>
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+              </div>
+              <div class="slider-container" id="slider1">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/fort-santiago-slide1.jpg" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/fort-santiago-slide2.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/fort-santiago-slide3.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/fort-santiago-slide5.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail">
+          <div class="item">
+            <img src="image/mactan-shrine1.jpg" alt="Thumbnail 1" />
+            <div class="content">
+              <div class="title">Mactan Shrine</div>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="image/magellan-slide3.jpg" alt="Thumbnail 2" />
+            <div class="content">
+              <div class="title">Magellan’s Cross</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/guisi-slide3.jpg" alt="Thumbnail 3" />
+            <div class="content">
+              <div class="title">Guisi Lighthouse</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/Fort_San_Pedro-slide2.jpg" alt="Thumbnail 4" />
+            <div class="content">
+              <div class="title"> Fort San Pedro</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrows">
+          <button id="prev">&lt;</button>
+          <button id="next">&gt;</button>
+        </div>
+
+        <div class="time"></div>
+      </div>
+
+      <div id="largeModal1" alt="Mactan Shrine" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Mactan Shrine</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/mactan-shrine-slide-1.jpg" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/mactan-shrine1.jpg" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/mactan-shrine-slide-2.jpg" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal2" alt="Magellan’s Cross" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Magellan’s Cross</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/magellan-slide1.jpg" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/magellan-slide2.jpg" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/magellan-slide3.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/magellan-slide4.jpg" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal3" alt="Guisi Lighthouse" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Guisi Lighthouse</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/guisi-slide1.png" alt="Image 1" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/guisi-slide2.jpg" alt="Image 2" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/guisi-slide3.jpg" alt="Image 3" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/guisi-slide4.jpg" alt="Image 4" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/guisi-slide5.jpg" alt="Image 4" />
+              </div>
+            </div>
+            <!-- Add more carousel items here -->
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            The Guisi Lighthouse, located in Nueva Valencia, Guimaras, is one of the oldest lighthouses in the Philippines, constructed in 1896. This charming structure, with its rustic white facade, is not only an active navigational aid but also a captivating glimpse into the rich maritime history of the area. Visitors are drawn to the lighthouse not just for its historical value but also for the stunning panoramic views it offers. Climbing the steps to the top rewards you with breathtaking vistas of the azure waters and the lush greenery surrounding the lighthouse.
+
+          </p>
+          <p>
+            Surrounding the lighthouse are picturesque landscapes, making it a perfect spot for photography, picnics, or simply soaking in the natural beauty. The gentle sound of waves crashing against the rocky shore creates a peaceful ambiance, inviting tourists to linger a little longer. The site is accessible daily from 8 AM to 8 PM, allowing ample opportunity to explore and enjoy the area throughout the day. As you stroll around, take the time to appreciate the local flora and fauna, which add to the area’s charm.
+
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal4" alt="Fort San Pedro" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Fort San Pedro</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/Fort_San_Pedro-slide2.jpg" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Fort_San_Pedro-slide1.jpg" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Fort_San_Pedro-slide3.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Fort_San_Pedro-slide4.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Fort_San_Pedro-slide5jpg" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            Fort San Pedro is situated at A. Pigafetta Street, Cebu City, is the oldest and smallest fort in the Philippines and is one of Cebu’s pride. Lying in Plaza Independencia in the pier area of Cebu, the fort holds a rich history of the island and the historical events during the Spanish rule.
+
+          </p>
+          <p>
+            Fort San Pedro or Fuerza de San Pedro is a triangular bastión fort. Its two sides are fronting the sea, and the other edge is facing the land where the entrance to the fort is located. You can see cannons installed on the sides facing the sea, while a sturdy fence made of wood is placed in front.
+
+          </p>
+          <p>
+            At present, Fort San Pedro is a historical park under the care and administration of the Cebu City government. You can visit the museum inside the fort that holds several preserved Spanish artifacts, such as paintings, sculptures, old photographs and items, and documents.
+            The spacious lawn of the fort now serves as a perfect venue for occasions like weddings, birthdays, and others, but only with a permit from the designated personnel.
+            
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal5" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Name of the Place5</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="1.png" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="2.png" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="3.png" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            Lorem ipsum dolr sit amet, consectetur adipisicing elit. Place your
+            modal content here. This is a paragraph of text that will be
+            justified. Justified text is spaced out so that the text aligns on
+            both the left and right sides of the container, giving it a clean,
+            block-like appearance.
+          </p>
+        </div>
+      </div>
+  
+
+      <script src="app.js"></script>
+    </section>
+  </body>
+</html>

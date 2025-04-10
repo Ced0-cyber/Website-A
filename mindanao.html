@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style-media-query.css">
+    <!-- Font Awesome 5.15.1 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div>
+      <div class="navbar">
+          <div class="hamburger" onclick="toggleMenu()">
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+          <ul>
+              <li><a href="history.html">HOME</a></li>
+              <li><a href="index.html">LUZON</a></li>
+              <li><a href="visayas.html">VISAYAS</a></li>
+              <li><a href="mindanao.html">MINDANAO</a></li>
+              <li><a href="Our-members.html">ABOUT US</a></li>
+          </ul>
+          <div class="sidebar-toggle" onclick="toggleMenu()">
+              <span class="toggle-icon">☰</span> <!-- Icon for opening -->
+          </div>
+      </div>
+    </div>
+
+    <section class="places">
+      <div class="carousel">
+        <div class="list">
+          <div class="item" alt="The Rizal Shrine">
+            <img
+              src="./image/Jose_Rizal_Shrine-slide1.jpg"
+              id="bg"
+              alt="Jose-Rizal_shrine-bg"
+            />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">Mindanao</div>
+                  <div class="title">Dapitan City</div>
+                  <div class="topic">The Rizal Shrine</div>
+                  <div class="des">
+                    <p>
+                      The Rizal Shrine, a National Shrine located in Barangay Talisay, Dapitan City, is exactly the same spot where Rizal built his home in exile which lasted four years, from July 17, 1892 to July...
+                    </p>
+                  </div>
+                </div>
+              <!--
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+              -->
+              </div>
+              <div class="slider-container" id="slider1">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/Jose_Rizal_Shrine-slide1.jpg" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Jose_Rizal_Shrine-slide2.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Jose_Rizal_Shrine-slide3.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Jose_Rizal_Shrine-slide4.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" alt="Cape of San Agustin">
+            <img src="./image/Cape-slide1.jpg" id="bg" alt="Cape of San Agustin" />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">Mindanao</div>
+                  <div class="title">Davao City</div>
+                  <div class="topic">Cape of San Agustin</div>
+                  <div class="des">
+                    <p>
+                      Cape San Agustin, located in the picturesque Davao Oriental region, is a stunning tourist attraction that showcases the natural beauty of the Philippines. This captivating cape is renowned for its dramatic cliffs that rise majestically from....
+                    </p>
+                  </div>
+                </div>
+                <!--
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+                -->
+              </div>
+              <div class="slider-container" id="slider2">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/Cape-slide2.jpg" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Cape-slide1.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Cape-slide3.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Cape-slide4.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" alt="Japanese Tunnel">
+            <img src="image/japan-tunnel-slide4.jpg" id="bg" alt="Japanese Tunnel-bg" />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">Mindanao</div>
+                  <div class="title">Davao City</div>
+                  <div class="topic">Japanese Tunnel</div>
+                  <div class="des">
+                    <p>
+                      he Japanese Tunnel in Davao City is a 300-meter long tunnel discovered by the landowners while excavating the area in preparation for a hotel’s construction. Passageways, rooms, armaments and...
+                    </p>
+                  </div>
+                </div>
+              <!--
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+              -->
+              </div>
+              <div class="slider-container" id="slider1">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/japan-tunnel-slide4.jpg" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/japan-tunnel-slide1.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/japan-tunnel-slide2.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/japan-tunnel-slide3.jpg" alt="Image 4" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/japan-tunnel-slide4.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item" alt="Fort Pilar">
+            <img
+              src="./image/fort-santiago-bg.jpg"
+              id="bg"
+              alt="Fort Pilar-bg"
+            />
+            <div class="main-content">
+              <div class="content">
+                <div class="cnt">
+                  <div class="author">LUZON</div>
+                  <div class="title">Zamboanga City</div>
+                  <div class="topic">Fort Pilar</div>
+                  <div class="des">
+                    <p>
+                      Fort Pilar, nestled in the vibrant city of Zamboanga, is a captivating historical landmark that invites tourists to step back in time. Originally built as a military defense fortress in the...
+                    </p>
+                  </div>
+                </div>
+                <!--
+                <div class="buttons">
+                  <button>SEE MORE</button>
+                </div>
+                -->
+              </div>
+              <div class="slider-container" id="slider1">
+                <div class="slider">
+                  <div class="slide">
+                    <img src="./image/Pilar-slide1.jpg" alt="Image 1" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Pilar-slide2.jpg" alt="Image 2" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Pilar-slide3.jpg" alt="Image 3" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Pilar-slide4.jpg" alt="Image 4" />
+                  </div>
+                  <div class="slide">
+                    <img src="./image/Pilar-slide5.jpg" alt="Image 4" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="thumbnail">
+          <div class="item">
+            <img src="image/Jose_Rizal_Shrine-slide1.jpg" alt="The Rizal Shrine" />
+            <div class="content">
+              <div class="title">The Rizal Shrine</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/Cape-slide1.jpg" alt="Cape of San Agustin" />
+            <div class="content">
+              <div class="title">Cape of San Agustin</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/japan-tunnel-slide1.jpg" alt="Japanese Tunnel" />
+            <div class="content">
+              <div class="title">Japanese Tunnel</div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="image/Pilar-slide1.jpg" alt="Fort Pilar" />
+            <div class="content">
+              <div class="title"> Fort Pilar</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="arrows">
+          <button id="prev">&lt;</button>
+          <button id="next">&gt;</button>
+        </div>
+
+        <div class="time"></div>
+      </div>
+
+      <div id="largeModal1" alt="The Rizal Shrine" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>The Rizal Shrine</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/Jose_Rizal_Shrine-slide1.jpg" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Jose_Rizal_Shrine-slide2.jpg" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Jose_Rizal_Shrine-slide3.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Jose_Rizal_Shrine-slide4.jpg" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            The Rizal Shrine, a National Shrine located in Barangay Talisay, Dapitan City, is exactly the same spot where Rizal built his home in exile which lasted four years, from July 17, 1892 to July 31, 1896. It features replicas of the houses of Jose Rizal which were rebuilt on their original sites. They are made from bamboo and nipa to resemble the original structures.
+
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal2" alt="Cape of San Agustin" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Cape of San Agustin</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/Cape-slide1.jpg" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Cape-slide2.jpg" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Cape-slide3.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Cape-slide4.jpg" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            Cape San Agustin, located in the picturesque Davao Oriental region, is a stunning tourist attraction that showcases the natural beauty of the Philippines. This captivating cape is renowned for its dramatic cliffs that rise majestically from the azure waters, creating a striking contrast that enchants visitors. The area is dotted with pristine beaches that invite relaxation and exploration, offering soft sands and crystal-clear waters perfect for swimming, snorkeling, or simply soaking up the sun. As the sun sets, the sky transforms into a canvas of vibrant colors, making it an ideal spot for photographers and romantics alike.
+
+          </p>
+          <p>
+            The rich biodiversity of the area also adds to its allure, with opportunities for bird watching and discovering unique marine life. Visitors can embark on guided boat tours to explore nearby islands, which often feature hidden lagoons and untouched coral reefs. For those seeking adventure, hiking trails along the coastal cliffs provide breathtaking views and a chance to experience the lush tropical landscape up close.
+
+          </p>
+          <p>
+            Culturally, Cape San Agustin is steeped in local lore and history, as it is near the famous Cape San Agustin Lighthouse, which dates back to the Spanish colonial era. This historic site not only offers insights into the region's past but also serves as a great vantage point for panoramic views of the surrounding seascape. 
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal3" alt="Japanese Tunnel" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Japanese Tunnel</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/japan-tunnel-slide4.jpg" alt="Image 1" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/japan-tunnel-slide1.jpg" alt="Image 2" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/japan-tunnel-slide2.jpg" alt="Image 3" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/japan-tunnel-slide3.jpg" alt="Image 4" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="./image/japan-tunnel-slide4.jpg" alt="Image 4" />
+              </div>
+            </div>
+            <!-- Add more carousel items here -->
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            The Japanese Tunnel in Davao City is a 300-meter long tunnel discovered by the landowners while excavating the area in preparation for a hotel’s construction. Passageways, rooms, armaments and other artifacts were discovered inside the tunnel. It was later confirmed that the tunnel was dug out by war prisoners by order of the Japanese Imperial Army during the Second World War.
+
+
+          </p>
+          <p>
+            The items found inside the tunnel were evidence that it was used by Japanese soldiers to seek cover as they were chased by the American liberating army. The tunnel was also used as headquarters of the country’s erstwhile invaders, with small chambers used as offices and dungeons for prisoners. Vintage guns, explosives and other ammo were also found inside the tunnel, proof that it was also used as an armory.
+
+
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal4" alt="Fort Pilar" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Fort Pilar</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/Pilar-slide5.jpg" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Pilar-slide1.jpg" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Pilar-slide2.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Pilar-slide3.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Pilar-slide4.jpg" alt="Image 3" />
+              </div>
+              <div class="carousel-item">
+                <img src="./image/Pilar-slide5.jpg" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            Fort Pilar, nestled in the vibrant city of Zamboanga, is a captivating historical landmark that invites tourists to step back in time. Originally built as a military defense fortress in the 17th century, this structure has transformed into a revered shrine dedicated to the Virgin Mary. The picturesque grounds, adorned with beautiful gardens, create an ideal setting for reflection and reverence. As you explore the area, you'll be enchanted by the unique blend of Spanish colonial architecture and the natural beauty surrounding the shrine, making it a perfect backdrop for photography enthusiasts.
+
+
+          </p>
+          <p>
+            Visitors often marvel at the intricate details of the shrine's façade, while the tranquil atmosphere allows for quiet contemplation. The shrine is not only a place of worship but also a testament to the rich history and culture of Zamboanga. Many locals and tourists alike gather here to pay their respects, particularly during religious celebrations and festivals. The shrine's prominence in the community makes it an essential stop for anyone wishing to understand the local customs and traditions. 
+
+
+          </p>
+        </div>
+      </div>
+
+      <div id="largeModal5" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Name of the Place5</h2>
+          <div class="modal-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="1.png" alt="Image 1" />
+              </div>
+              <div class="carousel-item">
+                <img src="2.png" alt="Image 2" />
+              </div>
+              <div class="carousel-item">
+                <img src="3.png" alt="Image 3" />
+              </div>
+              <!-- Add more carousel items here -->
+            </div>
+            <a class="carousel-prev" href="#">&lsaquo;</a>
+            <a class="carousel-next" href="#">&rsaquo;</a>
+          </div>
+          <p>
+            Lorem ipsum dolr sit amet, consectetur adipisicing elit. Place your
+            modal content here. This is a paragraph of text that will be
+            justified. Justified text is spaced out so that the text aligns on
+            both the left and right sides of the container, giving it a clean,
+            block-like appearance.
+          </p>
+        </div>
+      </div>
+
+      <script src="app.js"></script>
+    </section>
+  </body>
+</html>
